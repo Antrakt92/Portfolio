@@ -1,0 +1,29 @@
+# Portfolio .gitignore
+
+# Sensitive financial data (optional - uncomment if needed)
+# data/*_private.csv
+# data/backup/
+
+# Excel temporary files
+~$*.xlsx
+*.xlsm
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.env
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log

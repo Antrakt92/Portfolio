@@ -1,0 +1,3 @@
+date,ticker,amount_eur,shares,price,type,notes
+# Add your DCA history here
+# Example: 2024-01-15,SPYI,100,1.15,87.00,regular_dca,Monthly contribution

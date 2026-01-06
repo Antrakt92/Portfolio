@@ -6,8 +6,30 @@
 
 ---
 
+## 📊 Current Status Dashboard
+
+| Metric | Value | Status | Notes |
+|--------|-------|--------|-------|
+| **Portfolio Value** | €2,503 | 🟢 | +11.2% weighted return |
+| **Emergency Fund** | €48,000 / €60,000 | 🟡 80% | €12k to target |
+| **Current Phase** | Pre-Crisis | ⚠️ | CAPE 40, building reserves |
+| **S&P 500** | 6,902 (ATH) | 🔴 | -0% from -15% trigger |
+| **Monthly DCA** | €100 | 🟢 | Reduced due to valuations |
+| **Crisis Deployment Ready** | ~€10-15k | 🟢 | Available when needed |
+| **Next Review** | Feb 1, 2026 | 📅 | Monthly tracking |
+
+**Distance to Crisis Triggers:**
+- 🟡 **Phase 2 (-15%):** S&P 5,865 → -15.0% away
+- 🟡 **Phase 2B (-25%):** S&P 5,175 → -25.0% away
+- 🔴 **Phase 3 (-40%):** S&P 4,140 → -40.0% away *(DEPLOYMENT)*
+
+---
+
 ## 📑 Table of Contents
 
+- [Current Status Dashboard](#-current-status-dashboard)
+- [How to Use This Repository](#-how-to-use-this-repository)
+- [Financial Context](#-financial-context)
 - [Portfolio Overview](#-portfolio-overview)
 - [Current Allocation](#-current-allocation)
 - [Market Context](#-market-context-january-2026)
@@ -17,6 +39,98 @@
 - [Key Lessons Learned](#-key-lessons-learned)
 - [Action Plan](#-action-plan)
 - [Monitoring Checklist](#-monitoring-checklist)
+- [Monthly Reviews](#-monthly-reviews)
+
+---
+
+## 📖 How to Use This Repository
+
+### For Monthly Reviews
+
+1. **Update data files** in `data/` folder:
+   - `current_positions.csv` - After each trade
+   - `cash_reserves.csv` - Monthly
+   - `income_expenses.csv` - Monthly
+   - `market_indicators.csv` - Weekly
+
+2. **Run monthly review** (1st of each month):
+   - Copy `docs/monthly_review_template.md`
+   - Fill with current data
+   - Save to `docs/monthly_reports/YYYY-MM-month.md`
+   - Share with Claude for analysis
+
+3. **Get Claude's analysis**:
+   - Claude reads all data files
+   - Provides insights and recommendations
+   - Updates projections
+   - Suggests actions
+
+### For Crisis Response
+
+When market correction begins:
+1. Check Dashboard for trigger distances
+2. Follow crisis response plan (see below)
+3. Document all actions in monthly report
+4. Update strategy as executed
+
+### Repository Structure
+
+```
+Portfolio/
+├── README.md                    # Main strategy document (you are here)
+├── IMPLEMENTATION_PLAN.md       # Phase-by-phase build plan
+├── data/                        # All numerical data (CSV files)
+├── docs/                        # Monthly reviews and analysis
+│   ├── monthly_review_template.md
+│   └── monthly_reports/        # Historical monthly reports
+└── tools/                       # Calculators and automation
+```
+
+---
+
+## 💰 Financial Context
+
+### Income & Cashflow
+
+| Metric | Amount | Notes |
+|--------|--------|-------|
+| **Monthly Expenses** | ~€4,000 | Baseline (12-month average) |
+| **Net Monthly Income** | *TBD* | Awaiting data |
+| **Monthly Surplus** | *TBD* | Awaiting data |
+| **Savings Rate** | *TBD* | Will calculate from 3-year history |
+
+*Note: Detailed cashflow data to be added in Phase 4*
+
+### Emergency Fund
+
+**Current:** €48,000 (12 months expenses)
+**Target:** €60,000 (15 months expenses)
+**Remaining:** €12,000
+**Progress:** 80% complete
+
+**Purpose:**
+- **Safety Net:** €48,000 (untouchable minimum)
+- **Crisis Deployment:** €10-15,000 (when S&P drops -40%)
+- **Buffer:** Remaining for true emergencies
+
+**Projected Timeline to €60k:**
+- *TBD after receiving monthly surplus data*
+- Estimate: 6-12 months at current savings rate
+
+### Investment Capacity
+
+**Current Mode (Pre-Crisis):**
+- Monthly DCA: €100
+- Focus: 40% bonds (ERNX), 35% global equity (SPYI), 25% satellites
+
+**Crisis Mode (When S&P -40%):**
+- Day 1 Deployment: €10,000-10,600 (emergency fund + bonds sale)
+- Monthly DCA: €600-1,000 (to be verified with cashflow data)
+- Duration: 12 months aggressive buying
+
+**Verification Needed:**
+- Can true monthly surplus support €600-1,000 DCA in crisis?
+- Phase 5 analysis will confirm based on 3-year cashflow history
 
 ---
 
@@ -356,6 +470,24 @@ Sold QDV4 at -7.65% loss - correct decision:
 - FRED Economic Data (macro indicators)
 - Conference Board LEI (recession signals)
 - Moody's Analytics (probability estimates)
+
+---
+
+## 📅 Monthly Reviews
+
+### Latest Review
+📄 **[January 2026](docs/monthly_reports/2026-01-january.md)** - Baseline setup, CAPE at 40, pre-crisis positioning
+
+### All Reviews
+- [January 2026](docs/monthly_reports/2026-01-january.md) - Initial system setup
+- *More reviews will appear here as they're completed*
+
+### Review Process
+1. **Update data files** (1st of month)
+2. **Run review using template** (`docs/monthly_review_template.md`)
+3. **Share with Claude** for analysis
+4. **Document decisions** and commit to repository
+5. **Execute actions** (DCA, rebalancing, etc.)
 
 ---
 

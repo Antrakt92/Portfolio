@@ -1,0 +1,3 @@
+year,month,income_net_eur,expenses_eur,surplus_eur,savings_rate_pct,notes
+# Add your historical data here (3 years back)
+# Example: 2023,01,5500,4200,1300,23.6,Normal month
