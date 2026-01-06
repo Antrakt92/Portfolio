@@ -1,3 +1,2 @@
 year,month,income_net_eur,expenses_eur,surplus_eur,savings_rate_pct,notes
-# Add your historical data here (3 years back)
-# Example: 2023,01,5500,4200,1300,23.6,Normal month
+2023,annual,41109.70,21866.76,19242.94,46.8,Full year data from app
