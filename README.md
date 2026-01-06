@@ -11,12 +11,12 @@
 | Metric | Value | Status | Notes |
 |--------|-------|--------|-------|
 | **Portfolio Value** | €2,503 | 🟢 | +11.2% weighted return |
-| **Emergency Fund (Liquid)** | €50,699 / €60,000 | 🟢 85% | €9.3k to target, 12.7 months expenses |
-| **Total Cash Reserves** | €53,405 | 🟢 | Includes €2.7k crypto, 13.4 months expenses |
+| **Emergency Fund (EUR)** | €47,225 / €60,000 | 🟡 79% | €12.8k to target, 11.8 months EUR |
+| **Total Cash Reserves** | €53,184 | 🟢 | EUR 89% • UAH 7% • USD 4% |
 | **Current Phase** | Pre-Crisis | ⚠️ | CAPE 40, building reserves |
 | **S&P 500** | 6,902 (ATH) | 🔴 | -0% from -15% trigger |
 | **Monthly DCA** | €100 | 🟢 | Reduced due to valuations |
-| **Crisis Deployment Ready** | ~€11k | 🟢 | Verified with actual reserves |
+| **Crisis Deployment (EUR)** | €7.8-7.9k | 🟢 | +€6k if using UAH/USD |
 | **Next Review** | Feb 1, 2026 | 📅 | Monthly tracking |
 
 **Distance to Crisis Triggers:**
@@ -104,27 +104,41 @@ Portfolio/
 
 ### Emergency Fund
 
-**Current Liquid Cash:** €50,699 (12.7 months expenses)
-**Current Total (inc. crypto):** €53,405 (13.4 months expenses)
-**Target:** €60,000 liquid cash (15 months expenses)
-**Remaining:** €9,301
-**Progress:** 85% complete ✅
+**Current EUR Cash:** €47,225 (11.8 months expenses)
+**Current Total (all currencies):** €53,184 EUR equivalent (13.3 months)
+**Target:** €60,000 pure EUR (15 months expenses)
+**Remaining:** €12,775 EUR
+**Progress:** 79% complete 🟡
 
-**Breakdown:**
-- **Main Reserve:** €35,160 (Trade Republic Saver, earning 2.5%)
-- **Secondary Accounts:** €15,539 (distributed across 15 accounts)
-- **Crypto Holdings:** €2,706 (Kraken, separate from emergency fund)
+**Currency Breakdown:**
+- **EUR (89%):** €47,225 - Main emergency fund, stable
+- **UAH (7%):** 3,475 EUR eq. - Ukrainian hryvnia (volatile)
+- **USD (4%):** $2,889 - Crypto staking (highly volatile)
+
+**EUR Reserves Detail:**
+- **Main Reserve:** €35,160 (Trade Republic Saver, earning 2.00%)
+- **Traditional Bank:** €1,862 (Bank of Ireland Dima, 0%)
+- **Digital Banks:** €5,667 (Revolut Saver, Revolut Maria, Monobank)
+- **Physical Cash:** €2,526 (Конверт + wallets)
+- **Small Accounts:** €621 (5 accounts <€200 each)
+- **Trade Republic Maria:** €3,727 (earning 2.00%)
+
+**Interest Income:**
+- EUR accounts: €829/year (2% avg on €42k)
+- USD crypto staking: $152/year (5.25% on $2,889)
+- **Total: ~€971/year passive income**
 
 **Purpose:**
-- **Safety Net:** €40,000 (10 months minimum, untouchable)
-- **Crisis Deployment:** €10,699 available (verified ✅)
-- **Buffer to Target:** €9,301 (to reach €60k)
+- **Safety Net:** €40,000 EUR floor (10 months minimum)
+- **Crisis Deployment (EUR):** €7,225 available
+- **Crisis Deployment (Total):** €7,800-14,000 (if using UAH/USD)
+- **Buffer to Target:** €12,775 (to reach €60k EUR)
 
-**Projected Timeline to €60k:**
+**Projected Timeline to €60k EUR:**
 - *TBD after receiving monthly surplus data*
-- Estimate: 3-6 months at current savings rate
+- Estimate: 3-4 months at current savings rate
 
-📄 **[Detailed Cash Reserves Analysis](docs/cash_reserves_analysis.md)** - Full breakdown of 17 accounts, optimization recommendations, and liquidity analysis
+📄 **[Detailed Cash Reserves Analysis](docs/cash_reserves_analysis.md)** - Full multi-currency breakdown, optimization recommendations, and 17-account liquidity analysis
 
 ### Investment Capacity
 
@@ -133,14 +147,25 @@ Portfolio/
 - Focus: 40% bonds (ERNX), 35% global equity (SPYI), 25% satellites
 
 **Crisis Mode (When S&P -40%):**
-- Day 1 Deployment: **€11,200-11,300** ✅ (€10,699 emergency fund + €520 bonds sale → €560-620 rally)
-- Monthly DCA: €600-1,000 (to be verified with cashflow data)
-- Duration: 12 months aggressive buying
 
-**Deployment Capacity Verified:**
-- ✅ Emergency fund: €10,699 available (keep €40k floor for 10 months)
+**Option A: EUR Only (Conservative)** ✅ RECOMMENDED
+- Day 1 Deployment: **€7,800-7,900** (€7,225 EUR + €520 bonds → €560-620 rally)
+- Keep €40,000 EUR floor (10 months expenses)
+- Most stable, no currency risk
+- Monthly DCA: €600-1,000 (to be verified)
+
+**Option B: Multi-Currency (Aggressive)**
+- Day 1 Deployment: **€14,000** maximum
+- Use: €7,225 EUR + 3,475 UAH + $2,889 USD + bonds rally
+- Higher risk (currency volatility, crypto crash)
+- Only if market drops -50%+
+
+**Deployment Capacity:**
+- ✅ EUR available: €7,225 (keep €40k EUR floor)
 - ✅ Bonds sale proceeds: €560-620 (rally during crisis)
-- ⏳ Monthly DCA capacity: awaiting cashflow data to confirm
+- 🟡 UAH available: 3,475 EUR eq. (currency risk, family backup)
+- 🟡 USD available: $2,889 (crypto volatility)
+- ⏳ Monthly DCA capacity: awaiting cashflow data
 
 ---
 

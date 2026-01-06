@@ -1,18 +1,18 @@
-account_name,account_holder,bank_type,amount_eur,currency,access_type,interest_rate,last_updated,notes
-Trade Republic Saver,Dima,Broker Savings,35160.26,EUR,instant,~2-3%,2026-01-06,Main emergency fund - largest position
-Trade Republic,Maria,Broker,3727.48,EUR,instant,0%,2026-01-06,Trading account
-Monobank,Dima,Bank Card,2547.30,EUR,instant,0%,2026-01-06,Primary spending card
+account_name,account_holder,bank_type,amount,currency,access_type,interest_rate,last_updated,notes
+Trade Republic Saver,Dima,Broker Savings,35160.26,EUR,instant,2.00%,2026-01-06,Main emergency fund - largest EUR position
+Trade Republic,Maria,Broker,3727.48,EUR,instant,2.00%,2026-01-06,Trading account
+Monobank,Dima,Digital Bank,2547.30,UAH,instant,0%,2026-01-06,Primary spending card (shown as EUR equivalent in app)
 Конверт,Shared,Cash,2050.00,EUR,instant,0%,2026-01-06,Physical cash reserve
-Bank of Ireland,Maria,Bank,1862.33,EUR,instant,0-1%,2026-01-06,Irish bank account
-Revolut Saver,Dima,Digital Bank,1783.08,EUR,instant,2-4%,2026-01-06,Savings pocket
-Revolut,Maria,Digital Bank,1470.15,EUR,instant,0%,2026-01-06,Primary digital wallet
-Privatbank,Maria,Bank,926.49,EUR,instant,0%,2026-01-06,Ukrainian bank
-Monobank,Maria,Bank Card,551.76,EUR,instant,0%,2026-01-06,Spending card
+Bank of Ireland,Dima,Bank,1862.33,EUR,instant,0%,2026-01-06,Irish bank account
+Revolut Saver,Dima,Digital Bank,1783.08,EUR,instant,1.58%,2026-01-06,Savings pocket
+Revolut,Maria,Digital Bank,1470.15,EUR,instant,1.58%,2026-01-06,Primary digital wallet
+Privatbank,Maria,Bank,926.49,UAH,instant,0%,2026-01-06,Ukrainian bank (shown as EUR equivalent in app)
+Monobank,Maria,Digital Bank,551.76,EUR,instant,0%,2026-01-06,Digital bank euro account
 Кошелек,Maria,Cash Wallet,370.00,EUR,instant,0%,2026-01-06,Physical wallet
-Monobank,Dima,Cash Wallet,139.27,EUR,instant,0%,2026-01-06,Physical wallet
+Monobank,Dima,Digital Bank,139.27,EUR,instant,0%,2026-01-06,Digital bank account
 Кошелек,Dima,Cash Wallet,71.55,EUR,instant,0%,2026-01-06,Physical wallet
 Евро монеты,Shared,Cash,33.34,EUR,instant,0%,2026-01-06,Loose change
-Revolut,Dima,Digital Bank,5.56,EUR,instant,0%,2026-01-06,Digital wallet
-Monobank,Maria,Bank Card,1.28,EUR,instant,0%,2026-01-06,Small balance
-Kraken,Dima,Crypto Exchange,1520.00,USD,instant,0%,2026-01-06,Crypto holdings ~$1623 (converted to EUR)
-Kraken,Maria,Crypto Exchange,1186.00,USD,instant,0%,2026-01-06,Crypto holdings ~$1265 (converted to EUR)
+Revolut,Dima,Digital Bank,5.56,EUR,instant,1.58%,2026-01-06,Digital wallet
+Monobank,Maria,Digital Bank,1.28,UAH,instant,0%,2026-01-06,Small balance (shown as EUR equivalent in app)
+Kraken,Dima,Crypto Exchange,1623.19,USD,instant,5.25%,2026-01-06,Crypto staking earnings
+Kraken,Maria,Crypto Exchange,1265.49,USD,instant,5.25%,2026-01-06,Crypto staking earnings

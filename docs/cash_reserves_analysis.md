@@ -1,328 +1,406 @@
 # 💰 Cash Reserves Analysis
 
-**Analysis Date:** January 6, 2026
+**Analysis Date:** January 6, 2026 (Corrected)
 **Analyst:** Claude
-**Total Cash Reserves:** €53,405 (includes crypto)
+**Total Cash Reserves:** €53,184 EUR equivalent (per app)
 
 ---
 
-## 📊 Summary Statistics
+## 📊 Summary Statistics by Currency
+
+### Total Reserves Breakdown
+
+| Currency | Amount | EUR Equivalent | % of Total | Purpose |
+|----------|--------|----------------|------------|---------|
+| **EUR** | **€47,225** | €47,225 | **89%** | Primary currency |
+| **UAH** | 3,475 EUR eq. | €3,475 | 7% | Ukrainian hryvnia accounts |
+| **USD** | $2,889 | ~€2,706 | 5% | Crypto staking |
+| **TOTAL** | - | **€53,406** | **100%** | - |
+
+### Assessment Against Goals
 
 | Metric | Value | Assessment |
 |--------|-------|------------|
-| **Total EUR Cash** | €50,699 | ✅ Excellent |
-| **Total Crypto (converted)** | €2,706 | 🟡 5% of reserves |
-| **Total Reserves** | **€53,405** | ✅ **13.4 months expenses** |
-| **Target (€60k)** | 89% complete | 🟢 Close to target |
-| **Remaining to Target** | €6,595 | ~2-3 months |
+| **Total Reserves (EUR eq.)** | €53,184 | ✅ Excellent |
+| **Pure EUR Cash** | €47,225 | ✅ 11.8 months expenses |
+| **Total w/ conversions** | €53,406 | ✅ **13.4 months expenses** |
+| **Target (€60k EUR)** | 79% complete | 🟡 Close to target |
+| **Remaining to Target** | €12,775 | ~3-4 months |
 | **Monthly Expenses** | €4,000 | Baseline |
 
 ---
 
-## 🏦 Account Breakdown by Size
+## 🏦 Account Breakdown by Currency
 
-### Tier 1: Major Reserves (>€2,000)
+### 💶 EUR Accounts (€47,224.78)
 
-| Account | Holder | Amount | % of Total | Purpose |
-|---------|--------|--------|------------|---------|
-| **Trade Republic Saver** | Dima | **€35,160** | **66%** | 🎯 Main emergency fund |
-| **Trade Republic** | Maria | €3,727 | 7% | Trading/brokerage |
-| **Monobank** | Dima | €2,547 | 5% | Primary spending |
-| **Конверт (Cash)** | Shared | €2,050 | 4% | Physical reserve |
+**Tier 1: Major EUR Reserves (>€2,000)**
 
-**Tier 1 Total:** €43,484 (81% of reserves)
+| Account | Holder | Amount | % of EUR | Interest | Purpose |
+|---------|--------|--------|----------|----------|---------|
+| **Trade Republic Saver** | Dima | **€35,160** | **74%** | 2.00% | 🎯 Main emergency fund |
+| Trade Republic | Maria | €3,727 | 8% | 2.00% | Trading/brokerage |
+| Конверт | Shared | €2,050 | 4% | 0% | Physical cash reserve |
 
-### Tier 2: Medium Reserves (€500-€2,000)
+**Tier 1 Total:** €40,937 (87% of EUR)
 
-| Account | Holder | Amount | % of Total |
-|---------|--------|--------|------------|
-| Bank of Ireland | Maria | €1,862 | 3.5% |
-| Revolut Saver | Dima | €1,783 | 3.3% |
-| Revolut | Maria | €1,470 | 2.8% |
-| **Kraken** | **Dima** | **€1,520** | **2.8%** |
-| **Kraken** | **Maria** | **€1,186** | **2.2%** |
-| Privatbank | Maria | €926 | 1.7% |
-| Monobank | Maria | €552 | 1.0% |
+**Tier 2: Medium EUR Reserves (€500-€2,000)**
 
-**Tier 2 Total:** €9,299 (17% of reserves)
+| Account | Holder | Amount | Interest | Notes |
+|---------|--------|--------|----------|-------|
+| Bank of Ireland | Dima | €1,862 | 0% | Irish bank |
+| Revolut Saver | Dima | €1,783 | 1.58% | Savings pocket |
+| Revolut | Maria | €1,470 | 1.58% | Digital wallet |
+| Monobank | Maria | €552 | 0% | Digital bank EUR |
 
-### Tier 3: Small Balances (<€500)
+**Tier 2 Total:** €5,667 (12% of EUR)
 
-| Account | Amount |
-|---------|--------|
-| Кошелек Maria | €370 |
-| Monobank Dima (wallet) | €139 |
-| Кошелек Dima | €72 |
-| Евро монеты | €33 |
-| Revolut Dima | €6 |
-| Monobank Maria | €1 |
+**Tier 3: Small EUR Balances (<€500)**
 
-**Tier 3 Total:** €621 (1% of reserves)
+| Account | Amount | Type |
+|---------|--------|------|
+| Кошелек Maria | €370 | Cash |
+| Monobank Dima | €139 | Digital |
+| Кошелек Dima | €72 | Cash |
+| Евро монеты | €33 | Cash |
+| Revolut Dima | €6 | Digital |
+
+**Tier 3 Total:** €621 (1% of EUR)
 
 ---
 
-## 🔍 Detailed Analysis
+### 🇺🇦 UAH Accounts (3,475 EUR equivalent)
+
+| Account | Holder | Amount (EUR eq.) | Type | Notes |
+|---------|--------|------------------|------|-------|
+| Monobank | Dima | 2,547 | Digital Bank Card | Primary spending (UAH) |
+| Privatbank | Maria | 926 | Bank | Ukrainian bank (UAH) |
+| Monobank | Maria | 1 | Digital Bank | Small balance (UAH) |
+
+**Total UAH:** 3,475 EUR equivalent (7% of reserves)
+
+**Note:** These are Ukrainian hryvnia accounts shown as EUR equivalent in app. Subject to UAH/EUR exchange rate fluctuations.
+
+---
+
+### 💵 USD Accounts ($2,888.68 = ~€2,706 EUR)
+
+| Account | Holder | Amount USD | Interest APR | Notes |
+|---------|--------|------------|--------------|-------|
+| Kraken | Dima | **$1,623** | **5.25%** | Crypto staking |
+| Kraken | Maria | **$1,265** | **5.25%** | Crypto staking |
+
+**Total USD:** $2,889 (~€2,706 at current rates)
+
+**Annual Staking Income:** ~$152 (5.25% on $2,889)
+
+**Note:** USD crypto holdings. Highly volatile, treat separately from stable emergency fund.
+
+---
+
+## 🔍 Detailed Analysis (CORRECTED)
 
 ### Strengths ✅
 
-1. **Excellent Total Amount**
-   - €53,405 = 13.4 months expenses
-   - Target was €60k (15 months) - already at 89%!
-   - Well above minimum 12-month requirement
+1. **Strong EUR Core (€47,225)**
+   - 11.8 months of expenses in pure EUR
+   - No currency risk on majority of reserves
+   - Well above minimum 6-month requirement
 
 2. **Concentrated Core**
-   - 66% in Trade Republic Saver (€35k)
-   - Single large emergency fund = easy to manage
-   - Good interest rate (~2-3%)
+   - 74% of EUR in Trade Republic Saver (€35,160)
+   - Single main emergency fund = easy to manage
+   - Earning 2% interest
 
-3. **100% Instant Access**
+3. **Diversified Interest Income**
+   - Trade Republic: €38,887 @ 2% = €778/year
+   - Revolut: €3,259 @ 1.58% = €51/year
+   - Kraken: $2,889 @ 5.25% = $152/year (~€142)
+   - **Total: ~€971/year passive income**
+
+4. **100% Instant Access**
    - All accounts marked "instant" access
    - No locked funds or notice periods
-   - Can deploy €10-15k in crisis immediately
+   - Can deploy immediately in crisis
 
-4. **Geographic Diversification**
-   - Ireland: Bank of Ireland
-   - Ukraine: Privatbank, Monobank
-   - Digital: Revolut, Trade Republic
-   - Reduces bank failure risk
-
-5. **Interest-Bearing Accounts**
-   - Trade Republic Saver: ~2-3%
-   - Revolut Saver: ~2-4%
-   - Combined ~€37k earning interest
-   - Annual income: ~€900-1,100
+5. **Geographic Diversification**
+   - Ireland: Bank of Ireland (€1,862)
+   - Ukraine: Privatbank, Monobank (€3,475 UAH)
+   - Digital: Revolut, Trade Republic (€42,146)
+   - Reduces single-country risk
 
 ### Concerns & Risks ⚠️
 
 1. **Fragmentation (17 accounts!)**
    - Hard to track and manage
-   - Risk of forgetting small balances
+   - 6 accounts with <€200 each
    - Administrative overhead
-   - **Recommendation:** Consolidate Tier 3 accounts
+   - **Recommendation:** Consolidate Tier 3
 
-2. **Crypto Exposure (5%)**
-   - €2,706 in crypto (Kraken accounts)
-   - Volatile, not true "emergency fund"
-   - Could drop -50% overnight
-   - **Recommendation:** Consider this separate from emergency fund
+2. **Currency Exposure**
+   - **UAH (7%):** Subject to hryvnia volatility
+     - Ukraine war risk, currency instability
+     - Could devalue vs EUR
+   - **USD (5%):** Crypto volatility + FX risk
+     - Crypto can drop -50%+ overnight
+     - USD/EUR fluctuations
+   - **Mitigation:** 89% in EUR = good
 
-3. **Bank Concentration Risk**
-   - 73% in two digital platforms (Trade Republic, Revolut)
-   - If platform issues, access delayed
-   - **Mitigation:** Keep €5k+ in traditional banks (BOI, Monobank)
-   - Currently only €4,410 in traditional banks (8%)
+3. **Crypto Risk ($2,889 USD)**
+   - Marked as "emergency fund" but highly volatile
+   - Earning good APR (5.25%) but risky
+   - **Recommendation:** Treat as separate speculative holding
 
-4. **Currency Risk (Minimal)**
-   - Only €2,706 in USD (crypto)
-   - 95% in EUR - good for EUR-based expenses
-   - ✅ This is correct strategy
+4. **Traditional Bank Concentration**
+   - Only €1,862 (3%) in traditional bank (BOI)
+   - 89% in digital platforms (Trade Republic, Revolut, Monobank)
+   - Platform risk if outages or regulations change
+   - **Recommendation:** Increase BOI to €5-7k (10%)
 
-5. **Physical Cash (€2,664)**
-   - €2,050 in "Конверт" + €621 in wallets
+5. **Physical Cash (€2,526)**
+   - €2,050 in "Конверт" + €476 in wallets/coins
    - 5% of reserves in physical cash
    - Risk: theft, loss, fire
-   - **Assessment:** Reasonable for emergency backup
+   - **Assessment:** Reasonable for emergencies
 
 ---
 
-## 🎯 Optimization Recommendations
+## 🎯 Optimization Recommendations (UPDATED)
 
-### Priority 1: Consolidate Small Accounts
+### Priority 1: Consolidate Small EUR Accounts
 
-**Current fragmentation:**
-- 17 total accounts
-- 6 accounts with <€200 each
-- Total in small accounts: €621
+**Current:** 5 accounts with <€200 each (total €621)
 
 **Action Plan:**
-1. **Consolidate Tier 3 into Revolut Saver:**
-   - Transfer Кошелек balances → Revolut Saver
-   - Transfer Monobank wallets → Main Monobank card
-   - Leave only €500 physical cash for true emergencies
-   - Deposit rest to earn interest
+1. Transfer Кошелек balances → Revolut Saver (+€442)
+2. Transfer Monobank Dima → Trade Republic Saver (+€139)
+3. Deposit Евро монеты → Revolut Saver (+€33)
+4. Keep only Revolut Dima active (€6)
 
-2. **Result:**
-   - Reduce to ~12 accounts
-   - Increase interest-earning balance
-   - Easier to track
+**Result:**
+- Reduce from 17 → 13 accounts
+- Add €614 to interest-bearing accounts
+- **Additional interest:** ~€10/year
 
-**Annual benefit:** +€10-20 in interest
+### Priority 2: Reclassify by Purpose
 
-### Priority 2: Increase Traditional Bank Reserve
+**Current:** All lumped as "emergency fund"
+**Recommended:**
 
-**Current:** Only €4,410 in traditional banks (BOI, Privatbank, Monobank cards)
-**Target:** €10,000 (20% of reserves)
+**Tier A: Core Emergency Fund (EUR only)**
+- Trade Republic Saver: €35,160
+- Bank of Ireland: €1,862
+- Revolut Saver: €1,783
+- Trade Republic Maria: €3,727
+- **Total: €42,532 (10.6 months expenses)** ✅
+
+**Tier B: Operating Cash (EUR + UAH)**
+- Monobank accounts: €2,687 + 2,547 UAH
+- Revolut Maria: €1,470
+- Конверт + wallets: €2,526
+- **Total: €6,683 + 3,475 UAH**
+
+**Tier C: Speculative/Volatile**
+- Kraken USD: $2,889 (crypto staking)
+- Privatbank UAH: 926 UAH
+
+**Benefit:** Clear separation of stable vs volatile reserves
+
+### Priority 3: Increase Traditional Bank Reserve
+
+**Current:** Only €1,862 (3%) at Bank of Ireland
+**Target:** €7,000 (15% of EUR reserves)
+
+**Action:**
+- Transfer €5,000 from Trade Republic Saver → BOI
+- New: BOI €7k, Trade Republic €30k
 
 **Rationale:**
 - Digital platforms can have outages
-- Regulations can change (see recent crypto crackdowns)
-- Traditional banks = more stable for emergencies
+- BOI = Irish bank, more regulated
+- Diversification from fintech risk
 
-**Action:**
-- Transfer €5,000 from Trade Republic → Bank of Ireland
-- New split: €30k Trade Republic, €7k BOI, rest distributed
+### Priority 4: Reach €60k Pure EUR Target
 
-### Priority 3: Reclassify Crypto
+**Current EUR:** €47,225
+**Current Total:** €53,184 (with UAH/USD)
+**Target:** €60,000 pure EUR
 
-**Current:** €2,706 crypto counted as emergency fund
-**Recommendation:** Treat separately
+**Gap Analysis:**
+- Need: €12,775 more EUR
+- Timeline: 3-4 months (need monthly surplus data)
+- Don't count UAH/USD toward target (volatile)
 
-**New Framework:**
-- **Emergency Fund (liquid cash only):** €50,699
-- **Crypto Holdings (volatile):** €2,706
-- **Total Reserves:** €53,405
-
-**Why:**
-- Crypto can drop -50% when you need it most (crisis)
-- Emergency fund should be stable
-- Better to exceed €60k target in cash only
-
-### Priority 4: Reach €60k Target (Liquid Cash)
-
-**Current liquid cash:** €50,699
-**Target:** €60,000
-**Gap:** €9,301
-
-**Timeline:**
-- Need monthly cashflow data to project
-- Estimate: 3-6 months at current savings rate
-- Sooner if surplus is €1,500+/month
-
-**Once at €60k:**
-- Consider €10-15k as "crisis deployment reserve"
-- Can increase monthly DCA from €100 → €200-300
+**Once at €60k EUR:**
+- Emergency fund = €50k floor (12.5 months)
+- Crisis deployment = €10k ready
+- Can increase monthly DCA to €200-300
 
 ---
 
-## 💡 Interest Optimization
+## 💡 Interest Optimization (CORRECTED)
 
 ### Current Interest-Earning Accounts
 
 | Account | Amount | Rate | Annual Income |
 |---------|--------|------|---------------|
-| Trade Republic Saver | €35,160 | 2.5% | €879 |
-| Revolut Saver | €1,783 | 3% | €53 |
-| Bank of Ireland | €1,862 | 1% | €19 |
-| **Total** | **€38,805** | **Avg 2.4%** | **€951/year** |
+| Trade Republic Saver | €35,160 | 2.00% | €703 |
+| Trade Republic Maria | €3,727 | 2.00% | €75 |
+| Revolut Saver Dima | €1,783 | 1.58% | €28 |
+| Revolut Maria | €1,470 | 1.58% | €23 |
+| Revolut Dima | €6 | 1.58% | €0 |
+| **Kraken Dima** | **$1,623** | **5.25%** | **$85** |
+| **Kraken Maria** | **$1,265** | **5.25%** | **$66** |
+| **EUR Total** | **€42,146** | **Avg 1.97%** | **€829** |
+| **USD Total** | **$2,889** | **5.25%** | **$152 (~€142)** |
+| **GRAND TOTAL** | **-** | **-** | **~€971/year** |
 
 ### After Optimization (Proposed)
 
+**Consolidate small balances into interest accounts:**
+
 | Account | Amount | Rate | Annual Income |
 |---------|--------|------|---------------|
-| Trade Republic Saver | €35,000 | 2.5% | €875 |
-| Revolut Saver | €3,000 | 3% | €90 |
-| Bank of Ireland | €7,000 | 1% | €70 |
-| **Total** | **€45,000** | **Avg 2.3%** | **€1,035/year** |
+| Trade Republic Saver | €35,300 | 2.00% | €706 |
+| Trade Republic Maria | €3,727 | 2.00% | €75 |
+| Revolut Saver Dima | €2,260 | 1.58% | €36 |
+| Revolut Maria | €1,470 | 1.58% | €23 |
+| Bank of Ireland | €7,000 | 0% | €0 |
+| Kraken (both) | $2,889 | 5.25% | $152 |
+| **TOTAL** | **~€49,757 + $2,889** | **Avg** | **€840 + $152** |
 
-**Improvement:** +€84/year (+9%)
-**Method:** Consolidate small balances into interest-bearing accounts
+**Improvement:** +€11/year EUR (+1.3%)
+**Note:** Prioritize stability over yield optimization
 
 ---
 
-## 🚨 Crisis Deployment Capacity
+## 🚨 Crisis Deployment Capacity (UPDATED)
 
 ### Available for Deployment (S&P -40% trigger)
 
-**Option A: Conservative (Keep 12 months minimum)**
-- Emergency Fund Floor: €48,000 (12 months)
-- Available for Deployment: €2,699
-- + Bonds Sale: €520 → €560-620 rally
-- **Total Deployment: €3,200-3,300**
+**Option A: Conservative (Keep 12 months EUR minimum)**
+- Emergency Fund Floor: €48,000 EUR
+- Available from EUR reserves: €0 (actually under target)
+- Available from UAH: €3,475 (risky, currency)
+- Available from USD: $2,889 (~€2,706, very risky)
+- Bonds Sale: €520 → €560-620 rally
+- **Total: €3,475 + €2,706 + €600 = €6,781** ⚠️
 
-**Option B: Moderate (Keep 10 months minimum)** ✅ RECOMMENDED
-- Emergency Fund Floor: €40,000 (10 months)
-- Available for Deployment: €10,699
+**Option B: Moderate (Keep 10 months EUR minimum)** ✅ RECOMMENDED
+- Emergency Fund Floor: €40,000 EUR
+- Available from EUR: €7,225
 - + Bonds Sale: €520 → €560-620 rally
-- **Total Deployment: €11,200-11,300**
+- **Total EUR deployment: €7,800-7,900**
+- Optional: Add UAH/USD if desperate (+€6,181)
+- **Maximum: €14,000** if using all reserves
 
-**Option C: Aggressive (Keep 8 months minimum)**
-- Emergency Fund Floor: €32,000 (8 months)
-- Available for Deployment: €18,699
-- + Bonds Sale: €520 → €560-620 rally
-- **Total Deployment: €19,200-19,300**
+**Option C: Aggressive (Use UAH + USD too)**
+- Keep €40k EUR floor
+- Deploy ALL non-EUR: €3,475 UAH + $2,889 USD + bonds
+- **Total: €7,225 + €3,475 + €2,706 + €600 = €14,006**
 
-**Assessment:**
-- Option B is realistic and safe
-- Family with child = keep 10 months minimum prudent
-- €11k deployment at S&P -40% = significant opportunity
+**Recommended Strategy:**
+- Phase 1: Deploy €7,800 EUR only (safe)
+- Phase 2: If market drops more (-50%), deploy UAH/USD
+- Keep UAH as buffer (family in Ukraine may need it)
 
 ---
 
-## 📈 Liquidity Tiers Summary
+## 📈 Liquidity Tiers Summary (CORRECTED)
 
-### Instant Access (100% of reserves) ✅
+### By Access Speed
 
-**Tier A: Digital Money (seconds to access)**
-- Trade Republic: €38,887
-- Revolut: €3,259
-- Total: €42,146 (79%)
+**Tier A: Instant Digital (EUR) - 90%**
+- Trade Republic: €38,887 (74%)
+- Revolut: €3,259 (6%)
+- Monobank Maria: €552 (1%)
+- Monobank Dima: €139 (0.3%)
+- Bank of Ireland: €1,862 (4%)
+- Total: €44,699 (84% of reserves)
 
-**Tier B: Traditional Banks (1-2 days)**
-- Bank of Ireland: €1,862
-- Monobank cards: €3,099
-- Privatbank: €926
-- Total: €5,887 (11%)
+**Tier B: Digital (UAH) - 7%**
+- Monobank Dima: 2,547 EUR eq.
+- Privatbank Maria: 926 EUR eq.
+- Monobank Maria: 1 EUR eq.
+- Total: 3,475 EUR eq. (7%)
 
-**Tier C: Physical Cash (immediate but risky)**
-- Конверт + wallets: €2,664
-- Total: 5%
+**Tier C: Crypto (USD) - 5%**
+- Kraken: $2,889 (~€2,706)
+- Access: Hours to withdraw
+- Risk: High volatility
 
-**Tier D: Crypto (hours to withdraw)**
-- Kraken: €2,706
-- Total: 5%
+**Tier D: Physical Cash (EUR) - 5%**
+- Конверт + wallets: €2,526
+- Access: Immediate but theft risk
 
-**Verdict:** ✅ Excellent liquidity profile. 90% accessible within 24 hours.
+**Verdict:** ✅ Excellent liquidity. 96% accessible within 24 hours.
 
 ---
 
-## 🎯 Action Items
+## 🎯 Action Items (UPDATED)
 
 ### This Month (January 2026)
 
-- [x] Document all cash reserves (completed)
-- [ ] Decide on consolidation strategy
-- [ ] Transfer small balances to interest-bearing accounts
-- [ ] Verify interest rates on Trade Republic and Revolut
+- [x] ✅ Document all cash reserves with corrections
+- [ ] Decide: Consolidate small accounts?
+- [ ] Decide: Increase BOI from €1.8k → €7k?
+- [ ] Verify: Trade Republic 2% and Revolut 1.58% rates
+- [ ] Classify: UAH/USD as separate from core EUR emergency fund
 
 ### Next 3 Months
 
-- [ ] Reach €60,000 liquid cash target
-- [ ] Implement Priority 2 (increase traditional bank reserve)
-- [ ] Decide on crypto: hold or consider as separate portfolio
+- [ ] **Priority:** Reach €60,000 pure EUR target (+€12,775)
+- [ ] Consider consolidating Tier 3 accounts
+- [ ] Monitor UAH/EUR and USD/EUR exchange rates
+- [ ] Review Kraken APR sustainability (5.25% is high)
 
 ### Ongoing
 
-- [ ] Track monthly additions to emergency fund
-- [ ] Review interest rates quarterly
-- [ ] Maintain account list in CSV (updated monthly)
+- [ ] Track monthly additions to EUR reserves
+- [ ] Separate tracking: EUR vs UAH vs USD
+- [ ] Monthly review of exchange rates
+- [ ] Maintain CSV with multi-currency data
 
 ---
 
-## 📝 Notes
+## 📝 Notes & Context
 
-**Family Context:**
-- Two people (you + wife)
+**Family Situation:**
+- Two adults (Dima + Maria)
 - 1 child
 - Monthly expenses: €4,000
 - Location: Ireland
+- Ukrainian connection (UAH accounts)
+
+**Currency Strategy:**
+- **EUR (89%):** Main currency, Ireland-based ✅
+- **UAH (7%):** Ukrainian hryvnia, family backup
+- **USD (5%):** Crypto staking, speculative
+
+**Total Asset Snapshot (from app):**
+- Total Balance: €76,740
+- Cash Reserves (НАЛИЧНОСТЬ): €53,184
+- **Investment Portfolio (implied):** €23,556
+  - This is your ETF portfolio (SPYI, ERNX, XDWT, etc.)
+  - Tracked separately in main README
 
 **Assessment:**
-Your emergency fund is **EXCELLENT** for your situation:
-- 13.4 months expenses = top 10% of households
-- Well-diversified across banks and countries
-- Earning interest on 73% of balance
-- 100% liquid and accessible
+Your **EUR emergency fund (€47,225) is EXCELLENT**:
+- 11.8 months expenses in stable currency ✅
+- Additional 13.4 months if including UAH/USD
+- Well-positioned for crisis deployment
+- Earning €829/year interest on EUR alone
 
-**Main recommendation:** Reach €60k cash target (2-3 months), then focus on increasing monthly DCA during this pre-crisis period. You're in a very strong position to deploy capital aggressively when the market corrects.
-
----
-
-**Next Steps:**
-1. Wait for income/expenses data for full cashflow analysis
-2. Calculate exact timeline to €60k target
-3. Verify crisis deployment capacity with real monthly surplus numbers
-4. Phase 5: Comprehensive financial analysis
+**Main Actions:**
+1. ✅ Continue building to €60k EUR (pure)
+2. 🟡 Consider consolidating small accounts
+3. 🟡 Increase traditional bank reserve (BOI)
+4. ✅ Treat UAH/USD separately from core EUR fund
 
 ---
 
-*"An emergency fund is not a luxury. It's a necessity that becomes a competitive advantage during crises."*
+**Next:** Awaiting 3-year income/expenses data for cashflow analysis and timeline to €60k target.
+
+---
+
+*"In three currencies we trust: EUR for stability, UAH for family, USD for growth."*
