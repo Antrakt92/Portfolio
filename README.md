@@ -11,11 +11,12 @@
 | Metric | Value | Status | Notes |
 |--------|-------|--------|-------|
 | **Portfolio Value** | €2,503 | 🟢 | +11.2% weighted return |
-| **Emergency Fund** | €48,000 / €60,000 | 🟡 80% | €12k to target |
+| **Emergency Fund (Liquid)** | €50,699 / €60,000 | 🟢 85% | €9.3k to target, 12.7 months expenses |
+| **Total Cash Reserves** | €53,405 | 🟢 | Includes €2.7k crypto, 13.4 months expenses |
 | **Current Phase** | Pre-Crisis | ⚠️ | CAPE 40, building reserves |
 | **S&P 500** | 6,902 (ATH) | 🔴 | -0% from -15% trigger |
 | **Monthly DCA** | €100 | 🟢 | Reduced due to valuations |
-| **Crisis Deployment Ready** | ~€10-15k | 🟢 | Available when needed |
+| **Crisis Deployment Ready** | ~€11k | 🟢 | Verified with actual reserves |
 | **Next Review** | Feb 1, 2026 | 📅 | Monthly tracking |
 
 **Distance to Crisis Triggers:**
@@ -103,19 +104,27 @@ Portfolio/
 
 ### Emergency Fund
 
-**Current:** €48,000 (12 months expenses)
-**Target:** €60,000 (15 months expenses)
-**Remaining:** €12,000
-**Progress:** 80% complete
+**Current Liquid Cash:** €50,699 (12.7 months expenses)
+**Current Total (inc. crypto):** €53,405 (13.4 months expenses)
+**Target:** €60,000 liquid cash (15 months expenses)
+**Remaining:** €9,301
+**Progress:** 85% complete ✅
+
+**Breakdown:**
+- **Main Reserve:** €35,160 (Trade Republic Saver, earning 2.5%)
+- **Secondary Accounts:** €15,539 (distributed across 15 accounts)
+- **Crypto Holdings:** €2,706 (Kraken, separate from emergency fund)
 
 **Purpose:**
-- **Safety Net:** €48,000 (untouchable minimum)
-- **Crisis Deployment:** €10-15,000 (when S&P drops -40%)
-- **Buffer:** Remaining for true emergencies
+- **Safety Net:** €40,000 (10 months minimum, untouchable)
+- **Crisis Deployment:** €10,699 available (verified ✅)
+- **Buffer to Target:** €9,301 (to reach €60k)
 
 **Projected Timeline to €60k:**
 - *TBD after receiving monthly surplus data*
-- Estimate: 6-12 months at current savings rate
+- Estimate: 3-6 months at current savings rate
+
+📄 **[Detailed Cash Reserves Analysis](docs/cash_reserves_analysis.md)** - Full breakdown of 17 accounts, optimization recommendations, and liquidity analysis
 
 ### Investment Capacity
 
@@ -124,13 +133,14 @@ Portfolio/
 - Focus: 40% bonds (ERNX), 35% global equity (SPYI), 25% satellites
 
 **Crisis Mode (When S&P -40%):**
-- Day 1 Deployment: €10,000-10,600 (emergency fund + bonds sale)
+- Day 1 Deployment: **€11,200-11,300** ✅ (€10,699 emergency fund + €520 bonds sale → €560-620 rally)
 - Monthly DCA: €600-1,000 (to be verified with cashflow data)
 - Duration: 12 months aggressive buying
 
-**Verification Needed:**
-- Can true monthly surplus support €600-1,000 DCA in crisis?
-- Phase 5 analysis will confirm based on 3-year cashflow history
+**Deployment Capacity Verified:**
+- ✅ Emergency fund: €10,699 available (keep €40k floor for 10 months)
+- ✅ Bonds sale proceeds: €560-620 (rally during crisis)
+- ⏳ Monthly DCA capacity: awaiting cashflow data to confirm
 
 ---
 
