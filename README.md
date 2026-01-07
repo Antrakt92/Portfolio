@@ -2,7 +2,7 @@
 
 > **Personal ETF Portfolio Management System**
 > Long-term wealth building with crisis preparedness framework
-> **Last Updated:** January 6, 2026
+> **Last Updated:** January 7, 2026
 
 ---
 
@@ -14,7 +14,7 @@
 | **Emergency Fund (EUR)** | €47,225 / €60,000 | 🟡 79% | 11.8 months, €12,775 to target |
 | **Total Cash Reserves** | €50,010 | 🟢 | 12.5 months expenses (EUR 94% • UAH ~€79 • USD $2.9k) |
 | **Monthly Surplus (2025)** | €943 | 🟢 | 19.7% savings rate |
-| **Timeline to €60k** | 11 months (9 optimized) | 🟢 | August 2026 with €220/mo cuts |
+| **Timeline to €60k** | 13.5 mo / 11 optimized | 🟢 | Oct 2026 current / Aug optimized |
 | **Current Phase** | Pre-Crisis | ⚠️ | CAPE 40, building reserves |
 | **S&P 500** | 6,902 (ATH) | 🔴 | -0% from -15% trigger |
 | **Monthly DCA** | €100 | 🟢 | Reduced due to valuations |

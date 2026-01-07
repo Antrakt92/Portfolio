@@ -1,8 +1,8 @@
 # 💰 Cash Reserves Analysis
 
-**Analysis Date:** January 6, 2026 (Corrected)
+**Analysis Date:** January 7, 2026 (Corrected)
 **Analyst:** Claude
-**Total Cash Reserves:** €53,184 EUR equivalent (per app)
+**Total Cash Reserves:** €50,010 EUR equivalent (all currencies)
 
 ---
 
@@ -12,20 +12,20 @@
 
 | Currency | Amount | EUR Equivalent | % of Total | Purpose |
 |----------|--------|----------------|------------|---------|
-| **EUR** | **€47,225** | €47,225 | **89%** | Primary currency |
-| **UAH** | 3,475 EUR eq. | €3,475 | 7% | Ukrainian hryvnia accounts |
-| **USD** | $2,889 | ~€2,706 | 5% | Crypto staking |
-| **TOTAL** | - | **€53,406** | **100%** | - |
+| **EUR** | **€47,225** | €47,225 | **94.4%** | Primary currency |
+| **UAH** | 3,474 hryvnia | ~€79 | 0.2% | Ukrainian hryvnia accounts (3,474 UAH ÷ 44) |
+| **USD** | $2,889 | ~€2,706 | 5.4% | Crypto staking (USD × 0.937) |
+| **TOTAL** | - | **€50,010** | **100%** | - |
 
 ### Assessment Against Goals
 
 | Metric | Value | Assessment |
 |--------|-------|------------|
-| **Total Reserves (EUR eq.)** | €53,184 | ✅ Excellent |
+| **Total Reserves (EUR eq.)** | €50,010 | ✅ Excellent |
 | **Pure EUR Cash** | €47,225 | ✅ 11.8 months expenses |
-| **Total w/ conversions** | €53,406 | ✅ **13.4 months expenses** |
+| **Total w/ conversions** | €50,010 | ✅ **12.5 months expenses** |
 | **Target (€60k EUR)** | 79% complete | 🟡 Close to target |
-| **Remaining to Target** | €12,775 | ~3-4 months |
+| **Remaining to Target** | €12,775 | ~11 months (optimized) |
 | **Monthly Expenses** | €4,000 | Baseline |
 
 ---
@@ -69,17 +69,18 @@
 
 ---
 
-### 🇺🇦 UAH Accounts (3,475 EUR equivalent)
+### 🇺🇦 UAH Accounts (~€79 EUR equivalent)
 
-| Account | Holder | Amount (EUR eq.) | Type | Notes |
-|---------|--------|------------------|------|-------|
-| Monobank | Dima | 2,547 | Digital Bank Card | Primary spending (UAH) |
-| Privatbank | Maria | 926 | Bank | Ukrainian bank (UAH) |
-| Monobank | Maria | 1 | Digital Bank | Small balance (UAH) |
+| Account | Holder | Amount (UAH) | Type | EUR Equivalent |
+|---------|--------|--------------|------|----------------|
+| Monobank | Dima | 2,547 ₴ | Digital Bank Card | ~€58 |
+| Privatbank | Maria | 926 ₴ | Bank | ~€21 |
+| Monobank | Maria | 1 ₴ | Digital Bank | ~€0 |
 
-**Total UAH:** 3,475 EUR equivalent (7% of reserves)
+**Total UAH:** 3,474 hryvnia = **~€79 EUR** (0.2% of reserves)
 
-**Note:** These are Ukrainian hryvnia accounts shown as EUR equivalent in app. Subject to UAH/EUR exchange rate fluctuations.
+**Exchange Rate Used:** 44 UAH/EUR (2026-01-07)
+**Note:** Ukrainian hryvnia accounts. Subject to UAH/EUR exchange rate fluctuations. This is NOT euros - the app may show converted amount, but actual currency is hryvnia.
 
 ---
 
@@ -125,7 +126,7 @@
 
 5. **Geographic Diversification**
    - Ireland: Bank of Ireland (€1,862)
-   - Ukraine: Privatbank, Monobank (€3,475 UAH)
+   - Ukraine: Privatbank, Monobank (~€79 UAH)
    - Digital: Revolut, Trade Republic (€42,146)
    - Reduces single-country risk
 
@@ -138,13 +139,14 @@
    - **Recommendation:** Consolidate Tier 3
 
 2. **Currency Exposure**
-   - **UAH (7%):** Subject to hryvnia volatility
+   - **UAH (0.2%):** Subject to hryvnia volatility
      - Ukraine war risk, currency instability
      - Could devalue vs EUR
-   - **USD (5%):** Crypto volatility + FX risk
+     - Only ~€79, minimal impact
+   - **USD (5.4%):** Crypto volatility + FX risk
      - Crypto can drop -50%+ overnight
      - USD/EUR fluctuations
-   - **Mitigation:** 89% in EUR = good
+   - **Mitigation:** 94.4% in EUR = excellent ✅
 
 3. **Crypto Risk ($2,889 USD)**
    - Marked as "emergency fund" but highly volatile
@@ -152,8 +154,8 @@
    - **Recommendation:** Treat as separate speculative holding
 
 4. **Traditional Bank Concentration**
-   - Only €1,862 (3%) in traditional bank (BOI)
-   - 89% in digital platforms (Trade Republic, Revolut, Monobank)
+   - Only €1,862 (4%) in traditional bank (BOI)
+   - 94% in digital platforms (Trade Republic, Revolut, Monobank)
    - Platform risk if outages or regulations change
    - **Recommendation:** Increase BOI to €5-7k (10%)
 
@@ -195,10 +197,10 @@
 - **Total: €42,532 (10.6 months expenses)** ✅
 
 **Tier B: Operating Cash (EUR + UAH)**
-- Monobank accounts: €2,687 + 2,547 UAH
+- Monobank accounts: €691 + 2,547 UAH (~€58)
 - Revolut Maria: €1,470
 - Конверт + wallets: €2,526
-- **Total: €6,683 + 3,475 UAH**
+- **Total: €4,687 EUR + 3,474 UAH (~€79)**
 
 **Tier C: Speculative/Volatile**
 - Kraken USD: $2,889 (crypto staking)
@@ -223,7 +225,7 @@
 ### Priority 4: Reach €60k Pure EUR Target
 
 **Current EUR:** €47,225
-**Current Total:** €53,184 (with UAH/USD)
+**Current Total:** €50,010 (with UAH/USD)
 **Target:** €60,000 pure EUR
 
 **Gap Analysis:**
@@ -281,23 +283,23 @@
 **Option A: Conservative (Keep 12 months EUR minimum)**
 - Emergency Fund Floor: €48,000 EUR
 - Available from EUR reserves: €0 (actually under target)
-- Available from UAH: €3,475 (risky, currency)
+- Available from UAH: ~€79 (minimal, currency risk)
 - Available from USD: $2,889 (~€2,706, very risky)
 - Bonds Sale: €520 → €560-620 rally
-- **Total: €3,475 + €2,706 + €600 = €6,781** ⚠️
+- **Total: €79 + €2,706 + €600 = €3,385** ⚠️
 
 **Option B: Moderate (Keep 10 months EUR minimum)** ✅ RECOMMENDED
 - Emergency Fund Floor: €40,000 EUR
 - Available from EUR: €7,225
 - + Bonds Sale: €520 → €560-620 rally
 - **Total EUR deployment: €7,800-7,900**
-- Optional: Add UAH/USD if desperate (+€6,181)
-- **Maximum: €14,000** if using all reserves
+- Optional: Add UAH/USD if desperate (+€2,785)
+- **Maximum: €10,685** if using all reserves
 
 **Option C: Aggressive (Use UAH + USD too)**
 - Keep €40k EUR floor
-- Deploy ALL non-EUR: €3,475 UAH + $2,889 USD + bonds
-- **Total: €7,225 + €3,475 + €2,706 + €600 = €14,006**
+- Deploy ALL non-EUR: ~€79 UAH + $2,889 USD + bonds
+- **Total: €7,225 + €79 + €2,706 + €575 = €10,585**
 
 **Recommended Strategy:**
 - Phase 1: Deploy €7,800 EUR only (safe)
@@ -318,11 +320,11 @@
 - Bank of Ireland: €1,862 (4%)
 - Total: €44,699 (84% of reserves)
 
-**Tier B: Digital (UAH) - 7%**
-- Monobank Dima: 2,547 EUR eq.
-- Privatbank Maria: 926 EUR eq.
-- Monobank Maria: 1 EUR eq.
-- Total: 3,475 EUR eq. (7%)
+**Tier B: Digital (UAH) - 0.2%**
+- Monobank Dima: 2,547 UAH (~€58)
+- Privatbank Maria: 926 UAH (~€21)
+- Monobank Maria: 1 UAH (~€0)
+- Total: 3,474 UAH (~€79, 0.2%)
 
 **Tier C: Crypto (USD) - 5%**
 - Kraken: $2,889 (~€2,706)
@@ -373,21 +375,24 @@
 - Ukrainian connection (UAH accounts)
 
 **Currency Strategy:**
-- **EUR (89%):** Main currency, Ireland-based ✅
-- **UAH (7%):** Ukrainian hryvnia, family backup
-- **USD (5%):** Crypto staking, speculative
+- **EUR (94.4%):** Main currency, Ireland-based ✅
+- **UAH (0.2%):** Ukrainian hryvnia (~€79), family backup
+- **USD (5.4%):** Crypto staking, speculative
 
-**Total Asset Snapshot (from app):**
-- Total Balance: €76,740
-- Cash Reserves (НАЛИЧНОСТЬ): €53,184
-- **Investment Portfolio (implied):** €23,556
-  - This is your ETF portfolio (SPYI, ERNX, XDWT, etc.)
+**Total Asset Snapshot:**
+- **Cash Reserves:** €50,010 EUR equivalent
+  - EUR: €47,225 (94.4%)
+  - UAH: 3,474 hryvnia ≈ €79 (0.2%)
+  - USD: $2,889 ≈ €2,706 (5.4%)
+- **Investment Portfolio:** €2,503
+  - ETF portfolio (SPYI, ERNX, XDWT, etc.)
   - Tracked separately in main README
+- **Total Assets:** €52,513
 
 **Assessment:**
 Your **EUR emergency fund (€47,225) is EXCELLENT**:
 - 11.8 months expenses in stable currency ✅
-- Additional 13.4 months if including UAH/USD
+- Additional 12.5 months if including UAH/USD
 - Well-positioned for crisis deployment
 - Earning €829/year interest on EUR alone
 

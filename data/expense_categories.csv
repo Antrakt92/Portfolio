@@ -1,0 +1,24 @@
+month,groceries,travel,dining,entertainment,other,total_expenses,target_expenses,savings_achieved,notes
+2026-01,700,294,225,83,2546,3848,3628,0,Baseline month - no optimization yet
+# Example data for February (with optimization):
+# 2026-02,650,250,200,75,2453,3628,3628,220,Started optimization - cut €220/mo
+#
+# Optimization Targets:
+# - Groceries: €700 → €630 (cut €70/mo)
+# - Travel: €294 → €206 (cut €88/mo)
+# - Dining: €225 → €180 (cut €45/mo)
+# - Entertainment: €83 → €66 (cut €17/mo)
+# - Total target: Cut €220/mo
+#
+# Impact:
+# - Savings rate: 19.7% → 25%
+# - Monthly surplus: €943 → €1,163
+# - Timeline to €60k: 13.5 months → 11 months (August 2026)
+#
+# Instructions:
+# 1. Update monthly on 1st of each month
+# 2. Enter actual amounts spent in each category
+# 3. Calculate total_expenses (sum of all 5 categories)
+# 4. Target_expenses = €3,628 (if hitting optimization)
+# 5. savings_achieved = baseline (€3,848) - actual total
+# 6. Add notes for unusual months (big trips, repairs, etc.)
