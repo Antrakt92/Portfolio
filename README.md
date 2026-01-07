@@ -162,11 +162,18 @@ When market correction begins:
 ```
 Portfolio/
 ├── README.md                    # Main strategy document (you are here)
-├── IMPLEMENTATION_PLAN.md       # Phase-by-phase build plan
+├── CHANGELOG.md                 # History of all changes
 ├── data/                        # All numerical data (CSV files)
-├── docs/                        # Monthly reviews and analysis
+│   ├── cash_reserves.csv        # 17 accounts breakdown
+│   ├── current_positions.csv    # ETF holdings
+│   ├── income_expenses.csv      # 3-year cashflow
+│   └── expense_categories.csv   # Monthly expense tracking
+├── docs/                        # Analysis and reports
+│   ├── cash_reserves_analysis.md
+│   ├── cashflow_analysis_3year.md
+│   ├── VALIDATION_CHECKLIST.md  # Data consistency checks
 │   ├── monthly_review_template.md
-│   └── monthly_reports/        # Historical monthly reports
+│   └── monthly_reports/         # Historical monthly reports
 └── tools/                       # Calculators and automation
 ```
 
