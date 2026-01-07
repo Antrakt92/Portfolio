@@ -295,7 +295,7 @@ Portfolio/
 - **Base Currency:** EUR (Ireland-based)
 - **Strategy:** Long-term growth with defensive positioning
 - **Total Portfolio:** ~€2,503
-- **Emergency Fund:** ~€48,000 (12 months expenses)
+- **Emergency Fund:** €47,225 EUR / €50,010 total (12.5 months expenses)
 
 ### Investment Philosophy
 - **Buy and Hold:** Focus on long-term compounding
@@ -381,12 +381,13 @@ Portfolio/
 
 ### Emergency Fund Strategy
 
-**Current:** €48,000 (12 months expenses)
-**Target:** €60,000 (15 months expenses)
+**Current EUR:** €47,225 (11.8 months expenses)
+**Current Total:** €50,010 (12.5 months expenses)
+**Target:** €60,000 pure EUR (15 months expenses)
 
 **Purpose:**
-- Core safety net: €48k (untouchable)
-- Crisis deployment reserve: €10-15k
+- Core safety net floor: €40,000 EUR (10 months minimum - untouchable)
+- Available for crisis deployment: €7,225 EUR (above floor)
 - Enables aggressive investing during corrections without liquidity risk
 
 ---
@@ -512,9 +513,9 @@ Sold QDV4 at -7.65% loss - correct decision:
 - Your ETFs: 0.07-0.25% TER, outperform 90% active managers
 
 ### 5. Emergency Fund = Competitive Advantage
-€48k (12 months) enables:
+€50k total / €47k EUR (12.5 months) enables:
 - Aggressive investing without liquidity risk
-- €10-15k deployment capacity during crisis
+- €7,225 EUR deployment capacity (keeping €40k floor)
 - Peace of mind during market volatility
 
 ### 6. Gold Breakout Confirmed
