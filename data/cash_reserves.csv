@@ -1,0 +1,18 @@
+account_name,account_holder,bank_type,amount,currency,access_type,interest_rate,last_updated,notes
+Trade Republic Saver,Dima,Broker Savings,35160.26,EUR,instant,2.00%,2026-01-06,Main emergency fund - largest EUR position
+Trade Republic,Maria,Broker,3727.48,EUR,instant,2.00%,2026-01-06,Trading account
+Monobank,Dima,Digital Bank,2547.30,UAH,instant,0%,2026-01-06,Primary spending card (2547 hryvnia NOT euros)
+Конверт,Shared,Cash,2050.00,EUR,instant,0%,2026-01-06,Physical cash reserve
+Bank of Ireland,Dima,Bank,1862.33,EUR,instant,0%,2026-01-06,Irish bank account
+Revolut Saver,Dima,Digital Bank,1783.08,EUR,instant,1.58%,2026-01-06,Savings pocket
+Revolut,Maria,Digital Bank,1470.15,EUR,instant,1.58%,2026-01-06,Primary digital wallet
+Privatbank,Maria,Bank,926.49,UAH,instant,0%,2026-01-06,Ukrainian bank (926 hryvnia NOT euros)
+Monobank,Maria,Digital Bank,551.76,EUR,instant,0%,2026-01-06,Digital bank euro account
+Кошелек,Maria,Cash Wallet,370.00,EUR,instant,0%,2026-01-06,Physical wallet
+Monobank,Dima,Digital Bank,139.27,EUR,instant,0%,2026-01-06,Digital bank account
+Кошелек,Dima,Cash Wallet,71.55,EUR,instant,0%,2026-01-06,Physical wallet
+Евро монеты,Shared,Cash,33.34,EUR,instant,0%,2026-01-06,Loose change
+Revolut,Dima,Digital Bank,5.56,EUR,instant,1.58%,2026-01-06,Digital wallet
+Monobank,Maria,Digital Bank,1.28,UAH,instant,0%,2026-01-06,Small balance (1.28 hryvnia NOT euros)
+Kraken,Dima,Crypto Exchange,1623.19,USD,instant,5.25%,2026-01-06,Crypto staking earnings
+Kraken,Maria,Crypto Exchange,1265.49,USD,instant,5.25%,2026-01-06,Crypto staking earnings
