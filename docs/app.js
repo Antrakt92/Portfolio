@@ -33,7 +33,7 @@ document.addEventListener('DOMContentLoaded', async () => {
 
 // Load CSV data
 async function loadCSVData() {
-    const csvPath = '../data/cash_reserves.csv';
+    const csvPath = 'data/cash_reserves.csv';
 
     try {
         const response = await fetch(csvPath);

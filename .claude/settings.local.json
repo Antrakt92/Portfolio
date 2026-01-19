@@ -2,7 +2,9 @@
   "permissions": {
     "allow": [
       "Bash(git add:*)",
-      "Bash(git commit -m \"$\\(cat <<''EOF''\nAdd GitHub Pages dashboard + cleanup unused CSV files\n\n- Remove unused data files: current_positions.csv, monthly_dca_history.csv, market_indicators.csv\n- Add interactive dashboard \\(docs/index.html, styles.css, app.js\\)\n  - Emergency fund progress bar\n  - Key metrics cards \\(reserves, surplus, interest\\)\n  - Accounts distribution chart \\(Chart.js\\)\n  - Crisis trigger calculator\n  - Accounts table with all 17 accounts\n- Update documentation to reflect new structure\n- Dashboard reads directly from data/cash_reserves.csv\n\nCo-Authored-By: Claude Opus 4.5 <noreply@anthropic.com>\nEOF\n\\)\")"
+      "Bash(git commit -m \"$\\(cat <<''EOF''\nAdd GitHub Pages dashboard + cleanup unused CSV files\n\n- Remove unused data files: current_positions.csv, monthly_dca_history.csv, market_indicators.csv\n- Add interactive dashboard \\(docs/index.html, styles.css, app.js\\)\n  - Emergency fund progress bar\n  - Key metrics cards \\(reserves, surplus, interest\\)\n  - Accounts distribution chart \\(Chart.js\\)\n  - Crisis trigger calculator\n  - Accounts table with all 17 accounts\n- Update documentation to reflect new structure\n- Dashboard reads directly from data/cash_reserves.csv\n\nCo-Authored-By: Claude Opus 4.5 <noreply@anthropic.com>\nEOF\n\\)\")",
+      "Bash(git push:*)",
+      "Bash(git commit:*)"
     ]
   }
 }
