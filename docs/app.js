@@ -17,43 +17,38 @@ const TRIGGERS = {
     level40: 4140   // -40%
 };
 
+// Embedded data (from docs/data/cash_reserves.csv)
+// To update: edit this array and push to GitHub
+const ACCOUNTS_DATA = [
+    { account_name: "Trade Republic Saver", account_holder: "Dima", bank_type: "Broker Savings", amount: 35160.26, currency: "EUR", access_type: "instant", interest_rate: 2.00, last_updated: "2026-01-06", notes: "Main emergency fund" },
+    { account_name: "Trade Republic", account_holder: "Maria", bank_type: "Broker", amount: 3727.48, currency: "EUR", access_type: "instant", interest_rate: 2.00, last_updated: "2026-01-06", notes: "Trading account" },
+    { account_name: "Monobank", account_holder: "Dima", bank_type: "Digital Bank", amount: 2547.30, currency: "UAH", access_type: "instant", interest_rate: 0, last_updated: "2026-01-06", notes: "Primary spending card" },
+    { account_name: "Конверт", account_holder: "Shared", bank_type: "Cash", amount: 2050.00, currency: "EUR", access_type: "instant", interest_rate: 0, last_updated: "2026-01-06", notes: "Physical cash reserve" },
+    { account_name: "Bank of Ireland", account_holder: "Dima", bank_type: "Bank", amount: 1862.33, currency: "EUR", access_type: "instant", interest_rate: 0, last_updated: "2026-01-06", notes: "Irish bank account" },
+    { account_name: "Revolut Saver", account_holder: "Dima", bank_type: "Digital Bank", amount: 1783.08, currency: "EUR", access_type: "instant", interest_rate: 1.58, last_updated: "2026-01-06", notes: "Savings pocket" },
+    { account_name: "Revolut", account_holder: "Maria", bank_type: "Digital Bank", amount: 1470.15, currency: "EUR", access_type: "instant", interest_rate: 1.58, last_updated: "2026-01-06", notes: "Primary digital wallet" },
+    { account_name: "Privatbank", account_holder: "Maria", bank_type: "Bank", amount: 926.49, currency: "UAH", access_type: "instant", interest_rate: 0, last_updated: "2026-01-06", notes: "Ukrainian bank" },
+    { account_name: "Monobank", account_holder: "Maria", bank_type: "Digital Bank", amount: 551.76, currency: "EUR", access_type: "instant", interest_rate: 0, last_updated: "2026-01-06", notes: "Digital bank euro" },
+    { account_name: "Кошелек", account_holder: "Maria", bank_type: "Cash Wallet", amount: 370.00, currency: "EUR", access_type: "instant", interest_rate: 0, last_updated: "2026-01-06", notes: "Physical wallet" },
+    { account_name: "Monobank", account_holder: "Dima", bank_type: "Digital Bank", amount: 139.27, currency: "EUR", access_type: "instant", interest_rate: 0, last_updated: "2026-01-06", notes: "Digital bank account" },
+    { account_name: "Кошелек", account_holder: "Dima", bank_type: "Cash Wallet", amount: 71.55, currency: "EUR", access_type: "instant", interest_rate: 0, last_updated: "2026-01-06", notes: "Physical wallet" },
+    { account_name: "Евро монеты", account_holder: "Shared", bank_type: "Cash", amount: 33.34, currency: "EUR", access_type: "instant", interest_rate: 0, last_updated: "2026-01-06", notes: "Loose change" },
+    { account_name: "Revolut", account_holder: "Dima", bank_type: "Digital Bank", amount: 5.56, currency: "EUR", access_type: "instant", interest_rate: 1.58, last_updated: "2026-01-06", notes: "Digital wallet" },
+    { account_name: "Monobank", account_holder: "Maria", bank_type: "Digital Bank", amount: 1.28, currency: "UAH", access_type: "instant", interest_rate: 0, last_updated: "2026-01-06", notes: "Small balance" },
+    { account_name: "Kraken", account_holder: "Dima", bank_type: "Crypto Exchange", amount: 1623.19, currency: "USD", access_type: "instant", interest_rate: 5.25, last_updated: "2026-01-06", notes: "Crypto staking" },
+    { account_name: "Kraken", account_holder: "Maria", bank_type: "Crypto Exchange", amount: 1265.49, currency: "USD", access_type: "instant", interest_rate: 5.25, last_updated: "2026-01-06", notes: "Crypto staking" }
+];
+
 // Initialize dashboard
-document.addEventListener('DOMContentLoaded', async () => {
+document.addEventListener('DOMContentLoaded', () => {
     try {
-        const data = await loadCSVData();
-        if (data) {
-            renderDashboard(data);
-            setupTriggerCalculator();
-        }
+        renderDashboard(ACCOUNTS_DATA);
+        setupTriggerCalculator();
     } catch (error) {
         console.error('Failed to load dashboard:', error);
-        showError('Failed to load data. Make sure CSV files exist.');
+        showError('Failed to render dashboard: ' + error.message);
     }
 });
-
-// Load CSV data
-async function loadCSVData() {
-    const csvPath = 'data/cash_reserves.csv';
-
-    try {
-        const response = await fetch(csvPath);
-        if (!response.ok) {
-            throw new Error(`HTTP ${response.status}`);
-        }
-        const csvText = await response.text();
-
-        const result = Papa.parse(csvText, {
-            header: true,
-            skipEmptyLines: true,
-            transformHeader: (header) => header.trim()
-        });
-
-        return result.data;
-    } catch (error) {
-        console.error('Error loading CSV:', error);
-        throw error;
-    }
-}
 
 // Render dashboard with data
 function renderDashboard(accounts) {
@@ -380,7 +375,6 @@ function showError(message) {
         <div class="error">
             <h2>Error Loading Dashboard</h2>
             <p>${message}</p>
-            <p>Please check that the data files exist and the page is served from a web server.</p>
         </div>
     `;
 }
