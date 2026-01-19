@@ -122,30 +122,6 @@
 
 ---
 
-## 📈 Portfolio Validation
-
-### Portfolio Value
-
-- [ ] Total portfolio = `€2,503`
-- [ ] SPYI = `€937.73` (37.5%)
-- [ ] ERNX = `€914.70` (36.6%)
-- [ ] XDWT = `€240.13` (9.6%)
-- [ ] 10AF = `€231.93` (9.3%)
-- [ ] LYP6 = `€178.05` (7.1%)
-- [ ] Sum = `€2,502.54` ≈ €2,503 ✅
-
-### Percentages Sum to 100%
-
-- [ ] 37.5% + 36.6% + 9.6% + 9.3% + 7.1% = `100.1%` ✅ (rounding)
-
-### Target Allocation
-
-- [ ] SPYI target = `35%` (current 37.5%, drift +2.5%)
-- [ ] ERNX target = `40%` (current 36.6%, drift -3.4%)
-- [ ] All others within ±2%
-
----
-
 ## 💡 Optimization Plan Validation
 
 ### €220/month Cuts
@@ -211,9 +187,9 @@ Example: $2,889 × 0.937 = €2,707 ≈ €2,706 ✅
 
 ### Monthly Update (1st of Month)
 
+- [ ] Update **cash_reserves.csv** with account balances
 - [ ] Update **income_expenses.csv** with last month's data
 - [ ] Update **expense_categories.csv** with actual spending
-- [ ] Update **market_indicators.csv** with S&P, CAPE, etc.
 - [ ] Create new monthly report in `docs/monthly_reports/`
 - [ ] Update **README.md** dashboard with new numbers
 - [ ] Add entry to **CHANGELOG.md**

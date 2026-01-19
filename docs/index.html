@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/papaparse@5.4.1/papaparse.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Portfolio Dashboard</h1>
+            <p class="last-updated">Last updated: <span id="lastUpdated">Loading...</span></p>
+        </header>
+
+        <!-- Emergency Fund Progress -->
+        <section class="card progress-card">
+            <h2>Emergency Fund Progress</h2>
+            <div class="progress-container">
+                <div class="progress-bar">
+                    <div class="progress-fill" id="progressFill"></div>
+                </div>
+                <div class="progress-labels">
+                    <span id="currentAmount">Loading...</span>
+                    <span id="targetAmount">/ €60,000</span>
+                </div>
+            </div>
+            <p class="progress-info">
+                <span id="progressPercent">0%</span> complete
+                <span class="separator">•</span>
+                <span id="monthsToGoal">~0</span> months to goal
+            </p>
+        </section>
+
+        <!-- Key Metrics -->
+        <section class="metrics-grid">
+            <div class="card metric-card">
+                <div class="metric-value" id="totalReserves">€0</div>
+                <div class="metric-label">Total Reserves</div>
+                <div class="metric-detail" id="reservesBreakdown">EUR + USD + UAH</div>
+            </div>
+            <div class="card metric-card">
+                <div class="metric-value" id="monthlySurplus">€0</div>
+                <div class="metric-label">Monthly Surplus</div>
+                <div class="metric-detail" id="savingsRate">0% savings rate</div>
+            </div>
+            <div class="card metric-card">
+                <div class="metric-value" id="interestIncome">€0</div>
+                <div class="metric-label">Annual Interest</div>
+                <div class="metric-detail">Passive income</div>
+            </div>
+        </section>
+
+        <!-- Two Column Layout -->
+        <div class="two-column">
+            <!-- Accounts Distribution Chart -->
+            <section class="card">
+                <h2>Accounts Distribution</h2>
+                <div class="chart-container">
+                    <canvas id="accountsChart"></canvas>
+                </div>
+            </section>
+
+            <!-- Crisis Trigger -->
+            <section class="card">
+                <h2>Crisis Trigger Calculator</h2>
+                <div class="trigger-input">
+                    <label for="sp500Input">Current S&P 500:</label>
+                    <input type="number" id="sp500Input" value="6902" min="0" max="10000">
+                </div>
+                <div class="trigger-levels">
+                    <div class="trigger-level">
+                        <span class="trigger-label warning">-15%</span>
+                        <div class="trigger-bar">
+                            <div class="trigger-progress" id="trigger15"></div>
+                        </div>
+                        <span class="trigger-value">5,865</span>
+                    </div>
+                    <div class="trigger-level">
+                        <span class="trigger-label caution">-25%</span>
+                        <div class="trigger-bar">
+                            <div class="trigger-progress" id="trigger25"></div>
+                        </div>
+                        <span class="trigger-value">5,175</span>
+                    </div>
+                    <div class="trigger-level">
+                        <span class="trigger-label danger">-40%</span>
+                        <div class="trigger-bar">
+                            <div class="trigger-progress" id="trigger40"></div>
+                        </div>
+                        <span class="trigger-value">4,140</span>
+                    </div>
+                </div>
+                <p class="trigger-status" id="triggerStatus">Phase: Pre-Crisis</p>
+            </section>
+        </div>
+
+        <!-- Accounts Table -->
+        <section class="card">
+            <h2>All Accounts</h2>
+            <div class="table-container">
+                <table id="accountsTable">
+                    <thead>
+                        <tr>
+                            <th>Account</th>
+                            <th>Holder</th>
+                            <th>Amount</th>
+                            <th>Currency</th>
+                            <th>Rate</th>
+                        </tr>
+                    </thead>
+                    <tbody id="accountsBody">
+                        <!-- Populated by JS -->
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <footer>
+            <p>Data loaded from <code>data/cash_reserves.csv</code></p>
+            <p><a href="https://github.com/Antrakt92/Portfolio">View on GitHub</a></p>
+        </footer>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

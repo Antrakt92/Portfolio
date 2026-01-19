@@ -132,10 +132,9 @@ Once €60k EUR target is reached:
 ### For Monthly Reviews
 
 1. **Update data files** in `data/` folder:
-   - `current_positions.csv` - After each trade
-   - `cash_reserves.csv` - Monthly
-   - `income_expenses.csv` - Monthly
-   - `market_indicators.csv` - Weekly
+   - `cash_reserves.csv` - Monthly (all accounts)
+   - `income_expenses.csv` - Monthly (cashflow)
+   - `expense_categories.csv` - Monthly (spending breakdown)
 
 2. **Run monthly review** (1st of each month):
    - Copy `docs/monthly_review_template.md`
@@ -165,10 +164,10 @@ Portfolio/
 ├── CHANGELOG.md                 # History of all changes
 ├── data/                        # All numerical data (CSV files)
 │   ├── cash_reserves.csv        # 17 accounts breakdown
-│   ├── current_positions.csv    # ETF holdings
 │   ├── income_expenses.csv      # 3-year cashflow
 │   └── expense_categories.csv   # Monthly expense tracking
-├── docs/                        # Analysis and reports
+├── docs/                        # Analysis, reports & dashboard
+│   ├── index.html               # 📊 Interactive dashboard (GitHub Pages)
 │   ├── cash_reserves_analysis.md
 │   ├── cashflow_analysis_3year.md
 │   ├── VALIDATION_CHECKLIST.md  # Data consistency checks
