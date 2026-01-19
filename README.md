@@ -91,7 +91,7 @@ Once €60k EUR target is reached:
 ### Priority 4: Monthly Tracking & Discipline
 
 **Action Items:**
-- ✅ Track monthly expenses in `data/income_expenses.csv`
+- ✅ Track monthly expenses in `docs/data/income_expenses.csv`
 - ✅ Monitor optimization categories (groceries, travel, dining)
 - ✅ Review progress toward €60k on 1st of each month
 - ✅ Adjust DCA if S&P triggers hit (-15%, -25%, -40%)
@@ -131,7 +131,7 @@ Once €60k EUR target is reached:
 
 ### For Monthly Reviews
 
-1. **Update data files** in `data/` folder:
+1. **Update data files** in `docs/data/` folder:
    - `cash_reserves.csv` - Monthly (all accounts)
    - `income_expenses.csv` - Monthly (cashflow)
    - `expense_categories.csv` - Monthly (spending breakdown)
@@ -162,12 +162,12 @@ When market correction begins:
 Portfolio/
 ├── README.md                    # Main strategy document (you are here)
 ├── CHANGELOG.md                 # History of all changes
-├── data/                        # All numerical data (CSV files)
-│   ├── cash_reserves.csv        # 17 accounts breakdown
-│   ├── income_expenses.csv      # 3-year cashflow
-│   └── expense_categories.csv   # Monthly expense tracking
-├── docs/                        # Analysis, reports & dashboard
+├── docs/                        # Dashboard, data & reports
 │   ├── index.html               # 📊 Interactive dashboard (GitHub Pages)
+│   ├── data/                    # All CSV data files
+│   │   ├── cash_reserves.csv    # 17 accounts breakdown
+│   │   ├── income_expenses.csv  # 3-year cashflow
+│   │   └── expense_categories.csv # Monthly expense tracking
 │   ├── cash_reserves_analysis.md
 │   ├── cashflow_analysis_3year.md
 │   ├── VALIDATION_CHECKLIST.md  # Data consistency checks
